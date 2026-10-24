@@ -41,13 +41,15 @@
 <main>
 
 <h1>Harfle — Gizlilik Politikası</h1>
-<p class="tarih">Yürürlük tarihi: 27 Ağustos 2026</p>
+<p class="tarih">Yürürlük tarihi: 24 Ekim 2026</p>
 
 <div class="ozet">
-  <strong>Kısaca:</strong> Harfle sizden ad, e-posta, telefon numarası gibi
-  kimlik bilgileri istemez. Hesap açmanız gerekmez. Oyun ilerlemeniz yalnızca
-  telefonunuzda saklanır. Uygulamadaki reklamlar Google tarafından gösterilir
-  ve Google bu iş için cihazınızın reklam kimliğini kullanır.
+  <strong>Kısaca:</strong> Harfle'yi hesap açmadan oynayabilirsiniz; o zaman
+  ilerlemeniz yalnızca telefonunuzda kalır. İsterseniz hesap açarsınız, o
+  zaman ilerlemeniz buluta kaydedilir ve telefon değiştirdiğinizde sizinle
+  gelir. Hesabınızı istediğiniz an oyunun içinden silebilirsiniz.
+  Uygulamadaki reklamlar Google tarafından gösterilir ve Google bu iş için
+  cihazınızın reklam kimliğini kullanır.
 </div>
 
 <p>
@@ -67,11 +69,62 @@
   <li>Kalan ipucu hakkınız ve premium satın alıp almadığınız</li>
 </ul>
 <p>
-  Bu bilgiler <strong>hiçbir sunucuya gönderilmez</strong>. Geliştirici bunlara
-  erişemez. Uygulamayı telefonunuzdan kaldırdığınızda hepsi silinir.
+  Hesap açmadığınız sürece bu bilgiler <strong>hiçbir sunucuya
+  gönderilmez</strong> ve uygulamayı telefonunuzdan kaldırdığınızda hepsi
+  silinir. Hesap açarsanız aynı bilgiler buluta da kaydedilir; nasıl
+  olduğunu bir sonraki bölüm anlatıyor.
 </p>
 
-<h2>2. Reklamlar</h2>
+<h2>2. Hesap ve bulut kaydı</h2>
+<p>
+  Hesap açmak <strong>isteğe bağlıdır</strong>. Oyunun tamamı hesapsız
+  oynanabilir. Hesap açmanızın tek sebebi, telefonunuzu değiştirdiğinizde ya
+  da uygulamayı silip yeniden kurduğunuzda ilerlemenizin kaybolmamasıdır.
+</p>
+<p>
+  Hesap altyapısı Google'ın <strong>Firebase</strong> hizmetidir
+  (kimlik doğrulama ve Firestore veritabanı). Veriler Google'ın
+  <strong>Frankfurt (Almanya)</strong> bölgesindeki sunucularında tutulur.
+</p>
+<table>
+  <tr><th>Saklanan</th><th>Nereden geliyor</th></tr>
+  <tr>
+    <td>Hesap kimliği</td>
+    <td>Firebase tarafından otomatik üretilir; misafir oyuncularda da vardır</td>
+  </tr>
+  <tr>
+    <td>E-posta adresiniz</td>
+    <td>Yalnızca e-posta ile hesap açtıysanız. Şifreniz Firebase tarafından saklanır, geliştirici göremez</td>
+  </tr>
+  <tr>
+    <td>Adınız ve profil fotoğrafınız</td>
+    <td>Yalnızca Google ile giriş yaptıysanız; Google hesabınızdan gelir ve menüdeki profil yuvarlağında gösterilir</td>
+  </tr>
+  <tr>
+    <td>Oyun ilerlemeniz</td>
+    <td>Jetonlar, ipuçları, seriler, istatistikler, tırmanış ilerlemesi, dükkândan aldıklarınız ve ayarlarınız</td>
+  </tr>
+</table>
+<p>
+  Bu veriler <strong>yalnızca ilerlemenizi taşımak için</strong> kullanılır.
+  Reklam için kullanılmaz, kimseye satılmaz, üçüncü taraflarla paylaşılmaz.
+  Her oyuncu yalnızca kendi kaydını okuyabilir ve yazabilir.
+</p>
+<p>
+  <strong>Hesabınızı silebilirsiniz.</strong> Ana menünün sol üstündeki profil
+  yuvarlağına dokunup <em>Hesabımı sil</em> deyin; hesabınız ve buluttaki
+  kaydınız kalıcı olarak silinir, geri alınamaz. Uygulamayı telefonunuzdan
+  kaldırdıysanız silme talebinizi e-posta ile iletebilirsiniz. Ayrıntılar:
+  <a href="https://burak-boran.github.io/harfle-gizlilik/hesap-sil/">Hesap silme</a>.
+</p>
+<p>
+  <strong>Bildirimler.</strong> İzin verirseniz günde bir kez günlük bulmaca
+  hatırlatması gönderilir. Bu bildirim tamamen telefonunuzun içinde
+  oluşturulur; sunucudan gönderilmez ve bu iş için hiçbir veri toplanmaz.
+  Hatırlatmayı ayarlardan kapatabilirsiniz.
+</p>
+
+<h2>3. Reklamlar</h2>
 <p>
   Uygulama, Google'ın <strong>AdMob</strong> hizmeti üzerinden reklam gösterir.
   Reklamları Google sunar ve bu sırada Google aşağıdaki bilgileri toplayabilir:
@@ -97,7 +150,7 @@
   çıkar.
 </p>
 
-<h2>3. Uygulama içi satın alma</h2>
+<h2>4. Uygulama içi satın alma</h2>
 <p>
   Premium sürüm Google Play üzerinden satın alınır. Ödeme işlemini tamamen
   Google yürütür. <strong>Kart bilgileriniz uygulamaya hiç girilmez</strong> ve
@@ -106,7 +159,7 @@
 </p>
 <p>Premium satın alan oyunculara reklam gösterilmez.</p>
 
-<h2>4. Geri bildirim formu</h2>
+<h2>5. Geri bildirim formu</h2>
 <p>
   Ayarlar ekranındaki geri bildirim bağlantısı sizi bir Google Forms sayfasına
   götürür. Formu doldurmak <strong>tamamen isteğe bağlıdır</strong>. Yalnızca
@@ -114,13 +167,13 @@
   yazmadığınız sürece kimliğinizi göstermez.
 </p>
 
-<h2>5. Çocuklar</h2>
+<h2>6. Çocuklar</h2>
 <p>
   Harfle 13 yaşın altındaki çocuklara yönelik olarak tasarlanmamıştır ve
   bilerek 13 yaş altı kullanıcılardan veri toplamaz.
 </p>
 
-<h2>6. Haklarınız ve seçenekleriniz</h2>
+<h2>7. Haklarınız ve seçenekleriniz</h2>
 <ul>
   <li>
     <strong>Reklam kimliğinizi sıfırlayabilir veya kişiselleştirilmiş reklamı
@@ -133,19 +186,29 @@
     kaldırmanız yeterlidir.
   </li>
   <li>
+    <strong>Hesabınızı ve buluttaki kaydınızı silmek için</strong> oyundaki
+    profil yuvarlağından <em>Hesabımı sil</em> deyin ya da
+    <a href="https://burak-boran.github.io/harfle-gizlilik/hesap-sil/">hesap silme sayfasındaki</a>
+    adımları izleyin.
+  </li>
+  <li>
+    <strong>Bildirimleri</strong> ayarlardan ya da telefonunuzun bildirim
+    ayarlarından kapatabilirsiniz.
+  </li>
+  <li>
     Kişisel verilerinizle ilgili talepleriniz için (KVKK ve benzeri mevzuat
     kapsamındaki başvurular dahil) yukarıdaki e-posta adresinden ulaşabilirsiniz.
   </li>
 </ul>
 
-<h2>7. Bu politikadaki değişiklikler</h2>
+<h2>8. Bu politikadaki değişiklikler</h2>
 <p>
   Politika değişirse bu sayfa güncellenir ve yukarıdaki yürürlük tarihi
   yenilenir. Önemli bir değişiklik olursa uygulama güncellemesinin
   açıklamasında belirtilir.
 </p>
 
-<h2>8. İletişim</h2>
+<h2>9. İletişim</h2>
 <p>
   Harfle · Burak Boran<br>
   <a href="mailto:brn.games46@gmail.com">brn.games46@gmail.com</a>
